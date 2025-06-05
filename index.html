@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <canvas id="canvas" class="orbitron"></canvas>
+    <div id="winLoss" class="orbitron"></div>
+    <div id="ui">
+      <ul class="orbitron">
+        <li id="ph">Player Health</li>
+        <li id="sh">System Health</li>
+        <li id="keys">Keys</li>
+        <li id="sd">Shards Delivered</li>
+        <li id="highsc">High Score</li>
+      </ul>
+    </div>
+    <div id="centralHubContainer">
+        <button id="cross" class="orbitron">X</button>
+        <div id="central_hub" class="orbitron">
+            <h1>Central Hub</h1>
+            <ul></ul>
+        </div>
+    </div>
+    <div id="btn-container">
+      <button id="play" class="btn orbitron">Play</button>
+      <button id="pause" class="btn orbitron">Pause</button>
+      <button id="reset" class="btn orbitron">Reset</button>
+    </div>
+  </body>
+  <script src="./app.js"></script>
+</html>
